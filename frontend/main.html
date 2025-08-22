@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZMBank</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Header -->
+    <div class="header">
+      <p class="logo">ZMBank</p>
+      <img class="user" src="user.png" alt="Usuário">
+    </div>
+
+    <!-- Saldo -->
+    <div class="saldo-box">
+      <p class="saldo-label">Saldo</p>
+      <p class="saldo-num">&#437; 0,00</p>
+    </div>
+    
+    <!-- Botões -->
+    <div class="re-box">
+      <button class="receber">Receber</button>
+      <button class="enviar">Enviar</button>
+    </div>
+
+    <!-- Cartão -->
+    <div class="cartao-box">
+      <p class="cartao-label">Limite do cartão de crédito</p>
+
+      <div class="limite-barra">
+        <div class="limite-usado" style="width: 25%;"></div>
+      </div>
+
+      <div class="cartao-info">
+        <div class="utilizado">
+          <p class="valor">&#437; 50,00</p>
+          <p class="descricao">Utilizado</p>
+        </div>
+        
+        <div class="disponivel">
+          <p class="valor">&#437; 200,00</p>
+          <p class="descricao">Disponível</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Extrato -->
+    <div class="extrato-box">
+      <p class="extrato-titulo">Extrato</p>
+
+      <div class="extrato-compra">
+        <div class="nome-extrato">
+          <p>Shein *Shein.Com</p>
+          <p class="horario">20:59</p>
+        </div>
+        <div class="valor-extrato">
+          <p>&#437; 155,92</p>
+          <p class="parcelas">em 2x</p>
+        </div>
+      </div>
+
+      <div class="extrato-compra">
+        <div class="nome-extrato">
+          <p>Xbox GamePass</p>
+          <p class="horario">12:32</p>
+        </div>
+        <div class="valor-extrato">
+          <p>&#437; 59,90</p>
+          <p class="parcelas">em 1x</p>
+        </div>
+      </div>
+
+      <div class="extrato-compra">
+        <div class="nome-extrato">
+          <p>Farmácias Panvel</p>
+          <p class="horario">09:20</p>
+        </div>
+        <div class="valor-extrato">
+          <p>&#437; 11,90</p>
+          <p class="parcelas">Saldo</p>
+        </div>
+      </div>
+
+      <div class="extrato-compra">
+        <div class="nome-extrato">
+          <p>Restaurante Do Lar</p>
+          <p class="horario">22:27</p>
+        </div>
+        <div class="valor-extrato">
+          <p>&#437; 39,00</p>
+          <p class="parcelas">Saldo</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

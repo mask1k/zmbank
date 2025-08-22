@@ -1,0 +1,158 @@
+/* =================== RESET & GLOBAL =================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1c1d1f;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  padding: 20px;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #9B111E;
+  box-shadow: 0 0 5px #9B111E;
+}
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+/* =================== HEADER =================== */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 40px;
+  margin-left: 5px;
+}
+
+.user {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+  filter: brightness(0) saturate(100%) invert(22%) sepia(91%) saturate(7500%) hue-rotate(342deg);
+}
+
+/* =================== SALDO =================== */
+
+.saldo-box {
+  margin: 20px 0;
+}
+
+.saldo-label {
+  color: gray;
+  font-size: 16px;
+}
+
+.saldo-num {
+  font-size: 40px;
+}
+
+/* =================== BOTÕES =================== */
+
+.re-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.receber, .enviar {
+  background-color: #9b111f50;
+  color: #ff5062;
+  border: none;
+  border-radius: 20px;
+  padding: 12px 70px;
+  font-weight: bold;
+}
+
+.receber:active, .enviar:active {
+  opacity: 0.8;
+}
+
+/* =================== CARTÃO =================== */
+
+.cartao-box {
+  background-color: #212121;
+  width: 100%;
+  max-width: 380px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin: 20px auto;
+}
+
+.limite-barra {
+  width: 100%;
+  height: 20px;
+  background-color: #2e2e2e;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.limite-usado {
+  height: 100%;
+  background-color: #9B111E;
+  transition: width 0.5s ease;
+}
+
+.cartao-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.valor {
+  font-weight: bold;
+}
+
+.descricao {
+  font-size: 14px;
+  color: gray;
+}
+
+/* =================== EXTRATO =================== */
+
+.extrato-box {
+  background-color: #212121;
+  border-radius: 20px;
+  padding: 20px;
+  width: 100%;
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+.extrato-titulo {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.extrato-compra {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-top: 1px solid #631c23;
+  border-bottom: 1px solid #631c23;
+}
+
+.horario, .parcelas {
+  font-size: 13px;
+  color: gray;
+  margin-top: -5px;
+}

@@ -1,0 +1,105 @@
+body {
+  background-color: #1c1d1f;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  padding: 20px 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.logo p {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.welcome {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: clamp(36px, 8vw, 48px);
+  text-align: center;
+}
+
+.form-box p {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: rgb(140, 140, 140);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-size: 18px;
+  color: rgb(140, 140, 140);
+}
+
+.input-email,
+.input-senha,
+.input-confirmar {
+  width: 90%;
+  padding: 15px;
+  background-color: #232325;
+  font-size: 18px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #9B111E;
+  box-shadow: 0 0 5px #9B111E;
+}
+
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 90%;
+}
+
+.botao-criar, .botao-login {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.botao-criar {
+  background-color: #9B111E;
+  color: white;
+  border: solid 1px #9B111E;
+}
+
+.botao-criar:active {
+  background-color: transparent;
+  color: #9B111E;
+}
+
+.botao-login {
+  background-color: transparent;
+  color: #9B111E;
+  border: solid 1px #9B111E;
+}
+
+.botao-login:active {
+  background-color: #9B111E;
+  color: white;
+}

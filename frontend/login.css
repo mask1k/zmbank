@@ -1,0 +1,86 @@
+body {
+  background-color: #1c1d1f;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 400px; /* largura máxima confortável */
+}
+
+.logo p {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.pass-box p {
+  margin-bottom: 5px;
+  font-size: 24px;
+  color: rgb(140, 140, 140);
+}
+
+.email, .password {
+  width: 100%;
+  padding: 15px;
+  background-color: #232325;
+  font-size: 24px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #9B111E;
+  box-shadow: 0 0 5px #9B111E;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+.botao-entrar, .botao-esquecer {
+  width: 100%;
+  padding: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.botao-entrar {
+  background-color: #9B111E;
+  color: white;
+  border: solid 1px #9B111E;
+}
+
+.botao-entrar:active {
+  background-color: transparent;
+  color: #9B111E;
+}
+
+.botao-esquecer {
+  background-color: transparent;
+  color: #9B111E;
+  border: solid 1px #9B111E;
+}
+
+.botao-esquecer:active {
+  background-color: #9B111E;
+  color: white;
+}
